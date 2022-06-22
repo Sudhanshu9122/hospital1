@@ -1,0 +1,103 @@
+
+/*Css  file */
+  
+.name{
+    background-color:#f4f7f9;
+    border-radius:2px;
+    width:100%; 
+    padding:10px; 
+    text-decoration:none; 
+    border:none; 
+    outline:none;
+    display: inline-block; 
+    vertical-align: top;
+    position: relative; 
+    height:40px;
+ }
+.mail{
+ background-color:#f4f7f9; 
+ border-radius:2px;
+ padding:10px; 
+ text-decoration:none; 
+ border:none; 
+ outline:none;display: 
+ inline-block; 
+ vertical-align: top;
+ position: relative; 
+ height:40px;
+}
+.message{
+ background-color:#f4f7f9; 
+ border-radius:2px;
+ width:100%; 
+ padding:10px; 
+ text-decoration:none; 
+ border:none; 
+ outline:none;
+ display: inline-block; 
+ vertical-align: top;
+ position: relative; 
+ height:100px;
+ }
+ .bttn{
+         background-color:#00979d;
+         color: white;
+         transition: .8s;
+         line-height: 50%;
+         width:100%;
+         padding:10px; 
+         text-decoration:none; 
+         border:none; 
+         outline:none;
+         display: inline-block; 
+         vertical-align: top;
+         position: relative;
+         height:35px;
+}
+
+.bttn:hover{
+         background-color: #006f73;
+         color:white;
+         border-radius:5px;
+}
+
+.contactus{
+         padding:100px;
+         margin-bottom:1em;
+         font-size:2.5em;
+         margin-block-start:0.1em;
+         margin-block-end:0.83;
+         background-image: url(https://cdn.pixabay.com/photo/2013/05/12/18/55/balance-110850__340.jpg);
+        
+         background-position: center;
+         background-size: cover;
+ 
+}
+
+#cbb{
+         margin-top:-8px;
+         width:100%;
+         float:right;
+         font-size:50px;
+         animation-name:cnt;
+         animation-duration:5s; 
+         color:#FFFFFF;
+         animation-direction: alternate;
+}
+ 
+@keyframes cnt{
+ 0%{ 
+     width:300px;
+       color: #FFFFFF;
+   }
+ 50%{
+      color:#a39e9e;
+ }
+ 70%{
+      color:#CCC;
+   }
+ 100%{
+      color:#FFFFFF;
+   }
+ 
+ }
